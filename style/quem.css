@@ -1,0 +1,21 @@
+:root{
+    --cor-preta: black; 
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: var(--cor-preta);
+    display: flex;
+    justify-content: space-around;
+}
+.jerusalem{
+    width: 369px;
+    height: 212px;
+}
