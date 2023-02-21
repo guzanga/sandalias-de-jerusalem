@@ -1,0 +1,137 @@
+@media (max-width: 1200px){
+    .signup form {
+        margin-right: 100px;
+    }
+
+    #chk:checked~.signup form {
+        margin-right: 1px;
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+
+    #chk:checked~.signup label {
+        font-size: 25px;
+    }
+}   
+
+@media (max-width: 1050px){
+    input{
+        width: 500px;
+    }
+
+    .login label {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 975px) {
+    #chk:checked~.signup label {
+        margin: 80px;
+        font-size: 20px;
+    }    
+}
+/* inverter menu */
+
+@media (max-width: 930px){
+    .login{
+        width: 100%;
+        height: 80vh;
+        top: 20%;
+        align-items: start;
+        justify-content: center;
+        transform: translateX(0%);
+        transform: translateY(80%);
+        transition: 0.5s ease-in-out;
+    }
+
+    .login label{
+        margin-top: 15px;
+        font-size: 20px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .signup{
+        justify-content: center;
+        align-items: start;
+        height: 100%;
+        transition: 0.5s ease-in-out;
+    }
+
+    .signup form {
+        margin: 0;
+    }
+    
+    .signup input {
+        margin: 40px auto;
+    }
+
+    #chk:checked~ .login {
+        transform: translateX(0%);
+        height: 80vh;
+        top: 23%;
+        transition: 0.5s ease-in-out;
+    }
+
+    #chk:checked~.signup {
+        align-items: flex-start;
+        transition: 0.5s ease-in-out;
+    }
+    
+    #chk:checked~ .signup label{
+        margin-top: 25px;
+        height: 30px;
+        padding: 10px 10px;
+        font-size: 25px;
+        align-items: center;
+        transition: 0.5s ease-in-out;
+        
+    }
+}
+
+@media (max-width: 425px){
+    main {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .login {
+        width: 100%;
+    }
+
+    .signup {
+        width: 100%;
+        height: 100vh;
+    }
+
+    input{
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+}
+
+@media (max-width: 350px){
+    main {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .login {
+        width: 100%;
+    }
+
+    .signup {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    input{
+        width: 200px;
+        transition: 0.5s ease-in-out;
+    }
+
+    #chk:checked~.signup label {
+        font-size: 20px;
+        width: 150px;
+        transition: 0.5s ease-in-out;
+    }    
+}
