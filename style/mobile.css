@@ -1,34 +1,19 @@
-@media (max-width: 1400px) {
+@media (max-width: 1223px) {
     main #benefects #benefectsimg {
         display: block;
     }
-}
-
-@media (max-width: 1400px) {
     main #lanca #lancaimg {
         display: block;
     }
-}
-
-@media (max-width: 1400px) {
     main #destaques #destaquesimg {
         display: block;
     }
-}
-
-@media (max-width: 1400px) {
     main #sugestoes #sugestoesimg {
         display: block;
     }
-}
-
-@media (max-width: 1400px) {
     main #sugestoes #sugestoesimg #y{
         margin-bottom: 50px;
     }
-}
-
-@media (max-width: 1230px){
     .quem-hist{
         display: block;
     }
