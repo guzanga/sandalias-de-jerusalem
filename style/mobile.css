@@ -214,6 +214,14 @@
     }
 }
 
+@media (max-width:400px) {
+    
+    .imgcompra{
+        width: 100px;
+    }
+
+}
+
 @media (max-width: 350px){
     #cad {
         width: 100%;
@@ -240,3 +248,4 @@
         transition: 0.5s ease-in-out;
     }    
 }
+
