@@ -18,6 +18,10 @@
     font-family: 'Secular One';
   }
   
+  img {
+    max-width: 100%;
+  }
+
   .marginlateral{
     margin: 0px 15px;
   }
